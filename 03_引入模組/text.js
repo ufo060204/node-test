@@ -1,0 +1,1 @@
+module.exports = '我是 text 模組';
