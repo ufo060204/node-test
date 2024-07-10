@@ -1,0 +1,53 @@
+{
+  "singers": [
+    {
+      "singer_name": "Adele",
+      "singer_pic": "https://upload.wikimedia.org/wikipedia/commons/5/52/Adele_for_Vogue_in_2021.png",
+      "other_name": "Adele Laurie Blue Adkins",
+      "singer_id": 4558,
+      "id": 1
+    },
+    {
+      "singer_name": "Ed Sheeran",
+      "singer_pic": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg",
+      "other_name": "Edward Christopher Sheeran",
+      "singer_id": 7823,
+      "id": 2
+    },
+    {
+      "singer_name": "Taylor Swift",
+      "singer_pic": "https://zh.wikipedia.org/zh-tw/%E6%B3%B0%E5%8B%92%C2%B7%E6%96%AF%E5%A8%81%E5%A4%AB%E7%89%B9#/media/File:Taylor_Swift_at_the_2024_Golden_Globes_(1).png",
+      "other_name": "Taylor Alison Swift",
+      "singer_id": 9102,
+      "id": 3
+    },
+    {
+      "singer_name": "Bruno Mars",
+      "singer_pic": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Bruno_Mars_2010.jpg/220px-Bruno_Mars_2010.jpg",
+      "other_name": "Peter Gene Hernandez",
+      "singer_id": 6547,
+      "id": 4
+    },
+    {
+      "singer_name": "Beyoncé",
+      "singer_pic": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Beyonc%C3%A9_at_The_Lion_King_European_Premiere_2019.png/220px-Beyonc%C3%A9_at_The_Lion_King_European_Premiere_2019.png",
+      "other_name": "Beyoncé Giselle Knowles-Carter",
+      "singer_id": 3214,
+      "id": 5
+    },
+    {
+      "singer_name": "Justin Bieber",
+      "singer_pic": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Justin_Bieber_in_2015.jpg/220px-Justin_Bieber_in_2015.jpg",
+      "other_name": "Justin Drew Bieber",
+      "singer_id": 8976,
+      "id": 6
+    },
+    {
+      "singer_name": "Lady Gaga",
+      "singer_pic": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Lady_Gaga_at_Joe_Biden%27s_inauguration_%28cropped%29.jpg/220px-Lady_Gaga_at_Joe_Biden%27s_inauguration_%28cropped%29.jpg",
+      "other_name": "Stefani Joanne Angelina Germanotta",
+      "singer_id": 5432,
+      "id": 7
+    }
+  ]
+}
