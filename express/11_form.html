@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登錄頁面</title>
+</head>
+<body>
+  <h2>用戶登錄頁面</h2>
+  <hr>
+  <!-- 可以簡寫成 <form action="/login" method="post">, 因為 會拼接完整 URL(協議+主機+端口+路徑) -->
+  <!-- <form action="http://127.0.0.1:3000/login" method="post"> -->
+  <form action="/login" method="post">
+    <label for="username">用戶名:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="password">密碼:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+    <input type="submit" value="登錄">
+  </form>
+</body>
+</html>

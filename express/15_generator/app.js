@@ -2,7 +2,7 @@ var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+var logger = require('morgan'); // 引入日誌模塊
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -14,17 +14,20 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 app.use(logger('dev'));
-app.use(express.json()); // 處理 application/json 格式的請求體
-app.use(express.urlencoded({ extended: false })); // 處理 application/x-www-form-urlencoded 格式的請求體
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.json()); // 解析 JSON 請求體數據
+app.use(express.urlencoded({ extended: false })); // 解析表單數據
+app.use(cookieParser()); // 解析 cookie
+app.use(express.static(path.join(__dirname, 'public'))); // 靜態資源服務
 
-app.use('/', indexRouter);
+app.use('/', indexRouter); // 設置路由前綴
+app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
 });
+
+// app.all('*'); // 通配符路由，匹配所有路由 404 另一種寫法
 
 // error handler
 app.use(function(err, req, res, next) {

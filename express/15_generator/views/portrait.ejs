@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文件上傳</title>
+</head>
+<body>
+  <h2>文件上傳</h2>
+  <hr>
+  <!-- 要加上 enctype="multipart/form-data" 才能上傳文件 -->
+  <form action="/portrait" method="post" enctype="multipart/form-data">
+    <label for="username">用戶名：</label>
+    <input type="text" name="username" id="username">
+    <br>
+    <label for="portrait">頭像：</label>
+    <input type="file" name="portrait" id="portrait">
+    <br>
+    <hr>
+    <input type="submit" value="上傳">
+  </form>
+</body>
+</html>
