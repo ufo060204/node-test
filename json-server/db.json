@@ -1,0 +1,104 @@
+{
+  "song": [
+    {
+      "id": 1,
+      "name": "Welcome to the Jungle",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "id": 2,
+      "name": "Bohemian Rhapsody",
+      "artist": "Queen"
+    },
+    {
+      "id": 3,
+      "name": "Smells Like Teen Spirit",
+      "artist": "Nirvana"
+    },
+    {
+      "id": 4,
+      "name": "Imagine",
+      "artist": "John Lennon"
+    },
+    {
+      "id": 5,
+      "name": "Billie Jean",
+      "artist": "Michael Jackson"
+    },
+    {
+      "id": 6,
+      "name": "Like a Rolling Stone",
+      "artist": "Bob Dylan"
+    },
+    {
+      "id": 7,
+      "name": "Stairway to Heaven",
+      "artist": "Led Zeppelin"
+    },
+    {
+      "id": 8,
+      "name": "Hey Jude",
+      "artist": "The Beatles"
+    },
+    {
+      "id": 9,
+      "name": "Purple Rain",
+      "artist": "Prince"
+    },
+    {
+      "id": 10,
+      "name": "Born to Run",
+      "artist": "Bruce Springsteen"
+    },
+    {
+      "id": 11,
+      "name": "Hotel California",
+      "artist": "Eagles"
+    },
+    {
+      "id": 12,
+      "name": "I Will Always Love You",
+      "artist": "Whitney Houston"
+    },
+    {
+      "id": 13,
+      "name": "Sweet Child o' Mine",
+      "artist": "Guns N' Roses"
+    },
+    {
+      "id": 14,
+      "name": "Wonderwall",
+      "artist": "Oasis"
+    },
+    {
+      "id": 15,
+      "name": "Respect",
+      "artist": "Aretha Franklin"
+    },
+    {
+      "id": 16,
+      "name": "Like a Prayer",
+      "artist": "Madonna"
+    },
+    {
+      "id": 17,
+      "name": "Lose Yourself",
+      "artist": "Eminem"
+    },
+    {
+      "id": 18,
+      "name": "Crazy",
+      "artist": "Gnarls Barkley"
+    },
+    {
+      "id": 19,
+      "name": "Every Breath You Take",
+      "artist": "The Police"
+    },
+    {
+      "id": 20,
+      "name": "Hallelujah",
+      "artist": "Jeff Buckley"
+    }
+  ]
+}

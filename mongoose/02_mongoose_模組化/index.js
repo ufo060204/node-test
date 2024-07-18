@@ -2,20 +2,13 @@
 const db = require("./db/db");
 // 導入 mongoose
 const mongoose = require("mongoose");
+// 導入 BookModel
+const BookModel = require("./models/BookModel");
 
 // 調用函數
 db( async () => {
   console.log("數據庫連接成功");
-  // 5. 創建文檔結構對象 (Schema)
-  // 設置集合中文檔的屬性及屬性值的類型
-  let BookSchema = new mongoose.Schema({
-    name: String,
-    author: String,
-    price: Number,
-  });
-
-  // 6. 創建集合對象 (Model) 對文檔操作的封裝對象
-  let BookModel = mongoose.model("books", BookSchema);
+  
 
   // 7. 創建文檔對象 (Document)
   try {
